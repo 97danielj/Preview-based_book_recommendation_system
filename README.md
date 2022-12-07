@@ -10,11 +10,11 @@
 
 1. 구매내역에 기반한 추천
 
-![image-20221128181855308](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128181855308.png)
+![image-20221207132813351](README.assets/image-20221207132813351.png)
 
 2. 책의 내용에 기반한 태그 및 추천이 아닌, 수식어와 평가에 기반한 태그
 
-![image-20221128181958238](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128181958238.png)
+![image-20221207132825019](README.assets/image-20221207132825019.png)
 
 
 
@@ -26,16 +26,16 @@
 
 ### 1. 데이터 수집
 
-1. YES24 ebook 소설 카테고리에서 베스트 셀러 + 월별 베스트 셀러의 제목, 미리보기 텍스트 데이터 수집
-2. Json 으로 저장
-3. 총 12854개의 도서에 대한 데이터 확보
+1. YES24 ebook 소설 카테고리에서 스테디 셀러 42pages 미리보기 수집
+2. YES24 ebook 소설 카테고리에서 한국소설, 영미소설 등 다양한 하부 카테고리에서 미리보기 수집
+3. 총 7774개의 도서에 대한 데이터 확보
 
 ### 2. 데이터 전처리
 
 1. 결측치 제거
 2. 불용어 처리
 3. 연속 공백 제거
-4. 형태소 분석 : Mevab 형태
+4. 형태소 분석 : Mecab 형태
 
 
 
@@ -45,7 +45,7 @@
 
 단어의 빈도와 역 문서 빈도를 사용하여 DTM(문서단어행렬) 내에 각 단어들마다 중요한 정도를 가중치를 부여하는 Bag-of-Words 기반의 방식
 
-![image-20221128184024307](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128184024307.png)
+![image-20221207132956839](README.assets/image-20221207132956839.png)
 
 ### 2. Doc2vec 사용
 
