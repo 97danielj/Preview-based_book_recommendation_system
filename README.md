@@ -51,15 +51,15 @@
 
 Word2Vec의 확장으로 문장, 문단, 문서의 단위로 vector를 생성하는 방식
 
-![image-20221128184129433](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128184129433.png)
+![image-20221128184129433](README.assets/image-20221128184129433-16703882280419.png)
 
-![image-20221128184133611](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128184133611.png)
+![image-20221128184133611](README.assets/image-20221128184133611-167038825159411.png)
 
 
 
 ### 3. 두 모델의 장단점 비교
 
-![image-20221128184709423](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128184709423.png)
+![image-20221128184709423](README.assets/image-20221128184709423.png)
 
 
 
@@ -67,7 +67,7 @@ Word2Vec의 확장으로 문장, 문단, 문서의 단위로 vector를 생성하
 
 ## 5. 서비스 구현
 
-![image-20221128184844573](C:\Users\DanielJeong\AppData\Roaming\Typora\typora-user-images\image-20221128184844573.png)
+![image-20221128184844573](README.assets/image-20221128184844573-167038826405814.png)
 
 입력 : 도서 제목
 
