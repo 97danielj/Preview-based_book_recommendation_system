@@ -54,6 +54,7 @@ def get_tfidf_recommendations(title: str) -> pd.DataFrame:
 
     # 선택한 제목에서 해당 책의 인덱스를 받아온다.
     title_to_index = dict(zip(df['title'], df.index))
+    print(title_to_index)
     idx = title_to_index[title]
 
     # 해당 책과 모든 책과의 유사도를 가져온다.
