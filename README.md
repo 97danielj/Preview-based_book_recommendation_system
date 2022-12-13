@@ -6,6 +6,8 @@
 
 아래의 설명은 97danielj(저장소 소유자)가 따로 진행한 프로젝트입니다.
 
+'97danielj_progress'를 참조하세요.
+
 # Preview based book recommendation system
 
 ## 1. 문제상황
