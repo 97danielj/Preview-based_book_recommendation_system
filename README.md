@@ -114,7 +114,7 @@ Word2Vec의 확장으로 문장, 문단, 문서의 단위로 vector를 생성하
 
 ![image-20221212170834822](README.assets/image-20221212170834822.png)
 
-파이썬 패키지 streamlit으로 간편한 웹앱 구현
+파이썬 패키지 streamlit으로 간편한 대시보드 구현
 
 입력 : 도서 제목
 
